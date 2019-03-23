@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/liulinwjzx/liuinwj-public-coding/issues"
   },
-  "homepage": "https://github.com/liulinwjzx/liuinwj-public-coding#readme"
+  "homepage": "https://github.com/liulinwjzx/liuinwj-public-coding#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.3",
+    "app-root-path": "2.0.1",
+    "csv-parse": "4.3.4",
+    "json2csv": "4.3.5"
+  }
 }
