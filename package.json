@@ -1,0 +1,23 @@
+{
+  "name": "liuinwj-public-coding",
+  "version": "1.0.0",
+  "description": "Public codings for based database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liulinwjzx/liuinwj-public-coding.git"
+  },
+  "keywords": [
+    "codings",
+    "database"
+  ],
+  "author": "Liulinwj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liulinwjzx/liuinwj-public-coding/issues"
+  },
+  "homepage": "https://github.com/liulinwjzx/liuinwj-public-coding#readme"
+}
