@@ -14,7 +14,7 @@ const tables = parse(fs.readFileSync("map.csv"), {
   skip_empty_lines: true,
 });
 
-const handledTables = ["CCS"];
+const handledTables = [];
 
 
 (async function() {

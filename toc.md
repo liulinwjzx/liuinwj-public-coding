@@ -3,4 +3,4 @@
 
 - [中国标准文献分类法(CCS)](https://github.com/liulinwjzx/liuinwj-public-coding/tree/master/coding/CCS)
 
-- [国际标准文献分类法(ICS)](https://github.com/liulinwjzx/liuinwj-public-coding/tree/master/coding/ICS)
+- [国际标准分类法(ICS)](https://github.com/liulinwjzx/liuinwj-public-coding/tree/master/coding/ICS)
