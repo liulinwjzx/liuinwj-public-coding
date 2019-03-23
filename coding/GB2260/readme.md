@@ -1,8 +1,5 @@
 ## Codes for the administrative divisions of the People's Republic of China
 
-
-Rules for the code representation of administrative divisions under counties
-
 * [Chinse](#chinse)
 * [English](#english)
 
