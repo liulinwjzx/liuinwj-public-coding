@@ -4,7 +4,7 @@
 
 CSV 文件可以用 Excel 打开，SQLite(.db) 文件可以用 Navicat、SQLite Expert 或 SQLiteStudio 等打开。
 
-数据存储在在 [coding](https://github.com/liulinwjzx/liuinwj-public-coding/tree/master/coding) 文件夹。或者通过[目录](https://github.com/liulinwjzx/liuinwj-public-coding/blob/master/list.md)下载。
+数据存储在在 [coding](https://github.com/liulinwjzx/liuinwj-public-coding/tree/master/coding) 文件夹。或者通过[目录](https://github.com/liulinwjzx/liuinwj-public-coding/blob/master/toc.md)下载。
 
 1. 对于二进制文件（如 `.db`），可以点击 download 下载。
 ![](img/download_1.png)
