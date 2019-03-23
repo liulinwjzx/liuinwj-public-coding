@@ -8,7 +8,7 @@
 
 CSV 文件可以用 Excel 打开，SQLite(.db) 文件可以用 Navicat、SQLite Expert 或 SQLiteStudio 等打开。
 
-数据存储在在 [coding](coding) 文件夹。可以通过[目录](toc.md)浏览。
+数据存储在在 [coding](coding) 文件夹。可以通过[**目录**](toc.md)浏览。
 
 对于二进制文件（如 `.db`）或较大的文本文件，可以点击 download 下载。
 ![](img/download_1.png)
