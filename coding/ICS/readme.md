@@ -18,7 +18,7 @@ https://www.iso.org/publication/PUB100033.html
 
 ICS：International ClassificationforStandards.
 
-Chinse edition supplies name with chinese, but no chinese description.
+Chinese edition supplies name with chinese, but no chinese description.
 
 https://www.iso.org/publication/PUB100033.html
 
