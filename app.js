@@ -14,7 +14,7 @@ const tables = parse(fs.readFileSync("map.csv"), {
   skip_empty_lines: true,
 });
 
-const handledTables = ["GB_6864_2003"];
+const handledTables = [];
 
 
 (async function() {
@@ -30,8 +30,10 @@ const handledTables = ["GB_6864_2003"];
     fs.existsSync(folder) || fs.mkdirSync(folder);
     console.log("\tCreate folder success.");
 
+    let filename = table.filename || table.name || table.folder;
+
     for (let f of fs.readdirSync(folder)) {
-      if (f === `${table.name}.csv` || f === `${table.name}.json` || f === `${table.name}.db`) {
+      if (f === `${filename}.csv` || f === `${filename}.json` || f === `${filename}.db`) {
         fs.unlinkSync(`${folder}/${f}`);
       }
     }
@@ -46,17 +48,19 @@ const handledTables = ["GB_6864_2003"];
     let data = await db.allAsync(`SELECT * FROM ${table.name}`);
     console.log(`\tRead data success.`);
 
-    fs.writeFileSync(`${folder}/${table.name}.json`, JSON.stringify(data, null, 2));
+    fs.writeFileSync(`${folder}/${filename}.json`, JSON.stringify(data, null, 2));
     console.log(`\tWrite JSON file success.`);
 
     let csv = new Json2csvParser(Object.keys(data[0])).parse(data);
-    fs.writeFileSync(`${folder}/${table.name}.csv`, csv);
+    fs.writeFileSync(`${folder}/${filename}.csv`, csv);
     console.log(`\tWrite CSV file success.`);
 
-    let db2Path = `${folder}/${table.name}.db`;
+    let db2Path = `${folder}/${filename}.db`;
     let db2 = new DB(db2Path);
     await db2.runAsync(`attach database "database.db" as db`);
-    await db2.runAsync(`CREATE TABLE ${table.name} AS SELECT * FROM db.${table.name}`);;
+    await db2.runAsync(`CREATE TABLE ${table.name} AS SELECT * FROM db.${table.name}`);
+    console.log(`\tWrite sqlite file success.`);
+    db2.close();
 
     console.log(`\t${table.name} success.`);
   }
