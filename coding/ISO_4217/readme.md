@@ -17,6 +17,6 @@ ISO 4217: 货币和基金代码
 
 ISO 4217：Codes for the representation of currencies and funds
 
-Contains if is complementary currency(`is_complementary`), if is fund code(`is_funds_code`), if is bond market unit(`is_bond_market_unit`)。
+Contains if is complementary currency(`is_complementary`), if is fund code(`is_funds_code`), if is bond market unit(`is_bond_market_unit`).
 
 Chinese edition supplies name with chinese.
