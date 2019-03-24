@@ -8,7 +8,7 @@
 
 CSV 文件可以用 Excel 打开，SQLite(.db) 文件可以用 Navicat、SQLite Expert 或 SQLiteStudio 等打开。
 
-[**点此浏览目录**](coding)。
+[**点此浏览目录**](coding)
 
 对于二进制文件（如 `.db`）或较大的文本文件，可以点击 download 下载。
 ![](img/download_1.png)
