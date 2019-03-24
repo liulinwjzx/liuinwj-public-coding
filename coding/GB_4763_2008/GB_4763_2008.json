@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "code": "01",
+    "name": "中国共产党",
+    "short_name": "中共",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 2,
+    "code": "04",
+    "name": "中国国民党革命委员会",
+    "short_name": "民革",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 3,
+    "code": "05",
+    "name": "中国民主同盟",
+    "short_name": "民盟",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 4,
+    "code": "06",
+    "name": "中国民主建国会",
+    "short_name": "民建",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 5,
+    "code": "07",
+    "name": "中国民主促进会",
+    "short_name": "民进",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 6,
+    "code": "08",
+    "name": "中国农工民主党",
+    "short_name": "农工党",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 7,
+    "code": "09",
+    "name": "中国致公党",
+    "short_name": "致工党",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 8,
+    "code": "10",
+    "name": "九三学社",
+    "short_name": null,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 9,
+    "code": "11",
+    "name": "台湾民主自治同盟",
+    "short_name": "台盟",
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 10,
+    "code": "12",
+    "name": "无党派",
+    "short_name": null,
+    "enabled": 1,
+    "dest": null
+  }
+]
