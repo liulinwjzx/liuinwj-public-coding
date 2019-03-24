@@ -11,6 +11,9 @@ CSV files can be opened in Excel, and SQLite (.db) files can be opened with Navi
 [**Click to browse Table of Content**](coding)
 
 For binary files (such as `.db`) or larger text files, you can click download to download.
+
 ![](img/download_1.png)
+
 For smaller text files (such as `.csv` and `.json`), you can click Raw to download, or you can right-click Raw and download directly by tools or copy the address into the download tools.
+
 ![](img/download_2.png)
