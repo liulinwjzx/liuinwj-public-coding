@@ -14,7 +14,7 @@ const tables = parse(fs.readFileSync("map.csv"), {
   skip_empty_lines: true,
 });
 
-const handledTables = [];
+const handledTables = ["ISO_3166_1", "ISO_3166_1_WITH_CHINESE"];
 
 
 (async function() {
