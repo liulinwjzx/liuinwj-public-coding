@@ -39,7 +39,7 @@ const handledTables = ["ISO_3166_1", "ISO_3166_1_WITH_CHINESE"];
 
     let readme = `${folder}/readme.md`;
     if (!fs.existsSync(readme)) {
-      fs.writeFileSync(readme);
+      fs.writeFileSync(readme, "");
       console.log(`\tCreate readme file success.`);
     }
 

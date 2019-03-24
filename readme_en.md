@@ -8,7 +8,7 @@ This project provides three formats: CSV, JSON, and SQLite. It can be downloaded
 
 CSV files can be opened in Excel, and SQLite (.db) files can be opened with Navicat, SQLite Expert, or SQLiteStudio.
 
-The data is stored in the folder named "[coding](coding)". Table Of Content: [**TOC**](toc_en.md).
+[**Click to browse Table of Content**](coding)。
 
 For binary files (such as `.db`) or larger text files, you can click download to download.
 ![](img/download_1.png)
