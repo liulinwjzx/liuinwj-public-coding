@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "parent_id": null,
+    "code": "1",
+    "name": "名誉博士",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 2,
+    "parent_id": null,
+    "code": "2",
+    "name": "博士",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 3,
+    "parent_id": null,
+    "code": "3",
+    "name": "硕士",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 4,
+    "parent_id": null,
+    "code": "4",
+    "name": "学士",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 5,
+    "parent_id": 2,
+    "code": "201",
+    "name": "哲学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 6,
+    "parent_id": 2,
+    "code": "202",
+    "name": "经济学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 7,
+    "parent_id": 2,
+    "code": "203",
+    "name": "法学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 8,
+    "parent_id": 2,
+    "code": "204",
+    "name": "教育学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 9,
+    "parent_id": 2,
+    "code": "205",
+    "name": "文学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 10,
+    "parent_id": 2,
+    "code": "206",
+    "name": "历史学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 11,
+    "parent_id": 2,
+    "code": "207",
+    "name": "理学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 12,
+    "parent_id": 2,
+    "code": "208",
+    "name": "工学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 13,
+    "parent_id": 2,
+    "code": "209",
+    "name": "农学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 14,
+    "parent_id": 2,
+    "code": "210",
+    "name": "医学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 15,
+    "parent_id": 2,
+    "code": "211",
+    "name": "军事学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 16,
+    "parent_id": 2,
+    "code": "212",
+    "name": "管理学博士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 17,
+    "parent_id": 2,
+    "code": "245",
+    "name": "临床医学博士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 18,
+    "parent_id": 2,
+    "code": "248",
+    "name": "兽医博士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 19,
+    "parent_id": 2,
+    "code": "250",
+    "name": "口腔医学博士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 20,
+    "parent_id": 3,
+    "code": "301",
+    "name": "哲学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 21,
+    "parent_id": 3,
+    "code": "302",
+    "name": "经济学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 22,
+    "parent_id": 3,
+    "code": "303",
+    "name": "法学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 23,
+    "parent_id": 3,
+    "code": "304",
+    "name": "教育学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 24,
+    "parent_id": 3,
+    "code": "305",
+    "name": "文学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 25,
+    "parent_id": 3,
+    "code": "306",
+    "name": "历史学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 26,
+    "parent_id": 3,
+    "code": "307",
+    "name": "理学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 27,
+    "parent_id": 3,
+    "code": "308",
+    "name": "工学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 28,
+    "parent_id": 3,
+    "code": "309",
+    "name": "农学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 29,
+    "parent_id": 3,
+    "code": "310",
+    "name": "医学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 30,
+    "parent_id": 3,
+    "code": "311",
+    "name": "军事学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 31,
+    "parent_id": 3,
+    "code": "312",
+    "name": "管理学硕士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 32,
+    "parent_id": 3,
+    "code": "341",
+    "name": "法律硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 33,
+    "parent_id": 3,
+    "code": "342",
+    "name": "教育硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 34,
+    "parent_id": 3,
+    "code": "343",
+    "name": "工程硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 35,
+    "parent_id": 3,
+    "code": "344",
+    "name": "建筑硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 36,
+    "parent_id": 3,
+    "code": "345",
+    "name": "临床医学硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 37,
+    "parent_id": 3,
+    "code": "346",
+    "name": "工商管理硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 38,
+    "parent_id": 3,
+    "code": "347",
+    "name": "农业推广硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 39,
+    "parent_id": 3,
+    "code": "348",
+    "name": "兽医硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 40,
+    "parent_id": 3,
+    "code": "349",
+    "name": "公共管理硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 41,
+    "parent_id": 3,
+    "code": "350",
+    "name": "口腔医学硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 42,
+    "parent_id": 3,
+    "code": "351",
+    "name": "公共卫生硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 43,
+    "parent_id": 3,
+    "code": "352",
+    "name": "军事硕士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 44,
+    "parent_id": 4,
+    "code": "401",
+    "name": "哲学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 45,
+    "parent_id": 4,
+    "code": "402",
+    "name": "经济学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 46,
+    "parent_id": 4,
+    "code": "403",
+    "name": "法学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 47,
+    "parent_id": 4,
+    "code": "404",
+    "name": "教育学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 48,
+    "parent_id": 4,
+    "code": "405",
+    "name": "文学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 49,
+    "parent_id": 4,
+    "code": "406",
+    "name": "历史学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 50,
+    "parent_id": 4,
+    "code": "407",
+    "name": "理学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 51,
+    "parent_id": 4,
+    "code": "408",
+    "name": "工学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 52,
+    "parent_id": 4,
+    "code": "409",
+    "name": "农学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 53,
+    "parent_id": 4,
+    "code": "410",
+    "name": "医学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 54,
+    "parent_id": 4,
+    "code": "411",
+    "name": "军事学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 55,
+    "parent_id": 4,
+    "code": "412",
+    "name": "管理学学士学位",
+    "is_profession": 0,
+    "enabled": 1,
+    "dest": null
+  },
+  {
+    "id": 56,
+    "parent_id": 4,
+    "code": "444",
+    "name": "建筑学士专业学位",
+    "is_profession": 1,
+    "enabled": 1,
+    "dest": null
+  }
+]
