@@ -14,7 +14,7 @@ const tables = parse(fs.readFileSync("map.csv"), {
   skip_empty_lines: true,
 });
 
-const handledTables = ["GB_4763_2008"];
+const handledTables = [];
 
 
 (async function() {
